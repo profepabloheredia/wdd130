@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+
+}
+:root {
+    --primary-color: #9fdbf7;
+    --secondary-color:  ligthblue;
+    --accent1-color: 0;
+    --accent2-color: 0;
+
+    --heading-font:'Arial', serif;
+    --paragraph_font:'' sherif;
+    --nav-backgroung-color:0;
+    --nav-link-color:0;
+    --nav-hover-link-color:0;
+    --nav-hover-background-color:0;
+    
+
+
+}
