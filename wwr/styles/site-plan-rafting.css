@@ -2,19 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 body {
-    font-family: var(--paragraph-font);
+    font: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 
 }
 :root {
-    --primary-color: #9fdbf7;
-    --secondary-color:  ligthblue;
-    --accent1-color: 0;
-    --accent2-color: 0;
+    --primary-color: #0a3e57;
+    --secondary-color:  #e77878;
+    --accent1-color: green;
+    --accent2-color: rgb(70, 16, 25);
 
     --heading-font:'Arial', serif;
-    --paragraph_font:'' sherif;
+    --paragraph_font:'calibrí' serif;
     --nav-backgroung-color:blue;
     --nav-link-color:red;
     --nav-hover-link-color:brown;
@@ -24,7 +24,7 @@ body {
 
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading font);
+    font-family: var(--heading-font);
     color: var(--primary-color);
 }
 header {
