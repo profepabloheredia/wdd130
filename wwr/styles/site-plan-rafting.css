@@ -1,11 +1,11 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
 
 body {
     font: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
-
 }
 :root {
     --primary-color: #676050;
@@ -13,15 +13,12 @@ body {
     --accent1-color: #E39C3F;
     --accent2-color: #6f7365;
 
-    --heading-font:'Arial', serif;
-    --paragraph_font:'calibrí' serif;
+    --heading-font:'Pacifico', cursive;
+    --paragraph_font:'Truculenta' serif;
     --nav-backgroung-color:rgb(206, 215, 230);
     --nav-link-color:red;
     --nav-hover-link-color:brown;
     --nav-hover-background-color:grey;
-
-
-
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
@@ -47,7 +44,6 @@ nav a {
 }
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
-
 }
 nav a:hover{
     color: var(--nav-hover-link-color);
