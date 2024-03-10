@@ -16,7 +16,7 @@ body {
     --heading-font:'Truculenta';
     --paragraph_font:'Arial', serif;
     --nav-backgroung-color:rgb(206, 215, 230);
-    --nav-link-color:auto;
+    --nav-link-color:black;
     --nav-hover-link-color:rgb(98, 185, 243);
     --nav-hover-background-color:grey;
 }
