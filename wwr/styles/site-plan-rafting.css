@@ -8,14 +8,14 @@ body {
 
 }
 :root {
-    --primary-color: #0a3e57;
-    --secondary-color:  #e77878;
-    --accent1-color: green;
-    --accent2-color: rgb(70, 16, 25);
+    --primary-color: #676050;
+    --secondary-color:  #00a5cf;
+    --accent1-color: #E39C3F;
+    --accent2-color: #6f7365;
 
     --heading-font:'Arial', serif;
     --paragraph_font:'calibrí' serif;
-    --nav-backgroung-color:blue;
+    --nav-backgroung-color:rgb(206, 215, 230);
     --nav-link-color:red;
     --nav-hover-link-color:brown;
     --nav-hover-background-color:grey;
