@@ -13,8 +13,8 @@ body {
     --accent1-color: #E39C3F;
     --accent2-color: #6f7365;
 
-    --heading-font:'Pacifico', cursive;
-    --paragraph_font:'Truculenta' serif;
+    --heading-font:'Truculenta';
+    --paragraph_font:'Arial', serif;
     --nav-backgroung-color:rgb(206, 215, 230);
     --nav-link-color:red;
     --nav-hover-link-color:brown;
