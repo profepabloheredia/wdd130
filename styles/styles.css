@@ -1,7 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 main {
     max-width: 840px;
 }
 main img {
+    float: right;
     width: 150px;
     height: auto;
 }
@@ -32,15 +38,18 @@ p {
 }
 aside {
     width: 20rem;
-    margin: .5rem;
+    /*margin: .5rem;
     border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
-    padding: 1rem;
+    /*padding: 1rem;
     background-color: rgb(240, 179, 151);
-    color: black;
+    color: black;*/
     text-align: center;
+    position: relative;
+
     
 }
 aside img {
+
     width: 200px;
     height: auto;
     border-radius: 25%;
@@ -49,4 +58,13 @@ footer {
     margin-top: 10%;
     border-top: 2px solid black ;
     text-align: center;
+}
+/*  Class Selectors {}*/
+.box{
+    margin:1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: #ccc;
+    color: #000;
+
 }
