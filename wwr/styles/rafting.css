@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     padding: 20px;
-    background-color: var(--accent1-color);
+    background-color: var(--accent2-color);
 }
 
 nav {
@@ -46,26 +46,34 @@ nav a:hover{
 body {
     width: 1250px;
 }
-
-.hero {
+.hero{
     position: relative;
 }
 .hero img {
     display: block;
     width: 100%;
-    height: auto;
-   
-}
+    height: auto;  
+   }
 .hero h1{
     position:absolute;
+    top: 0px;
+    left: 40%;
+    color: white;
+   /* background-color: var(--accent2-color);*/
+    opacity: 80%;
 }
 .hero article{
     position: absolute;
-    opacity: 50%;
-   
+    opacity: 75%;
+    top: 80px;
+    left: 15rem;
+    right: 15rem;
+    color: white;
+    background-color: rgb(61, 23, 53);
 }
 .hero article img{
     float: right;
-    width: 10%;
+    width: 15%;
     height: auto;
+    
 }
