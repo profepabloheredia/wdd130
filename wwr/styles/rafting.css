@@ -23,9 +23,7 @@ header {
     padding: 20px;
     background-color: var(--accent1-color);
 }
-p {
-    padding: 25px;
-}
+
 nav {
     background-color: var(--nav-backgroung-color);
     font-size: 1.2rem;
@@ -48,6 +46,7 @@ nav a:hover{
 body {
     width: 1250px;
 }
+
 .hero {
     position: relative;
 }
@@ -57,10 +56,12 @@ body {
     height: auto;
 }
 .hero h1{
-    position: absolute;
+    position:absolute;
 }
 .hero article{
     position: absolute;
+    opacity: 50%;
+    background-color: rgb(15, 26, 22);
 }
 .hero article img{
     float: right;
