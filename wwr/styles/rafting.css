@@ -20,14 +20,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    grid-gap: 20px 5px;
     padding: 20px;
     background-color: var(--accent2-color);
+}img {
+   
+    grid-column: 1/2;
+    grid-row: 1;
 }
-
 nav {
+    grid-column: 2/3;
+    text-align: center;
+    display: flex;
+    flex: 1fr 1fr 1fr 1fr;
+    align-items: center;
     background-color: var(--nav-backgroung-color);
     font-size: 1.2rem;
-    display: flex;
+    
 }
 nav a {
     display: block;
@@ -35,6 +47,7 @@ nav a {
     text-decoration: none;
     text-decoration-line: none;
     padding: 1rem;
+    
 }
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
@@ -76,4 +89,7 @@ body {
     width: 15%;
     height: auto;
     
+}
+header, img, nav {
+    border: 1rem;
 }
