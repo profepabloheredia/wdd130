@@ -80,8 +80,8 @@ footer {
     background-color: #ccc;
     color: #000;
 }
-header, .grid, footer {
-    max-width: 820px;
+header, footer, .grid {
+    max-width: 840px;
     margin: 0 auto;
 }
 .grid {
