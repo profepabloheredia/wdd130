@@ -11,7 +11,7 @@
     --paragraph_font:'Arial', serif;
     --nav-backgroung-color:rgb(206, 215, 230);
     --nav-link-color:black;
-    --nav-hover-link-color:rgb(98, 185, 243);
+    --nav-hover-link-color:rgb(241, 241, 245);
     --nav-hover-background-color:grey;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -26,28 +26,34 @@ header {
     grid-gap: 20px 5px;
     padding: 20px;
     background-color: var(--accent2-color);
-}img {
-   
-    grid-column: 1/2;
+}
+img {
+    padding: auto;
+    grid-column: 1;
     grid-row: 1;
+    
 }
 nav {
-    grid-column: 2/3;
+    grid-column: 2;
+    grid-row: 1;
     text-align: center;
     display: flex;
-    flex: 1fr 1fr 1fr 1fr;
-    align-items: center;
+    list-style: circle;
+    /*flex: 1fr 1fr 1fr 1fr;*/
+    justify-content: space-between;
+    align-content: center;
     background-color: var(--nav-backgroung-color);
     font-size: 1.2rem;
+    max-width: 60%;
     
 }
 nav a {
-    display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     text-decoration-line: none;
     padding: 1rem;
-    
+    border-radius: 30%;
+      
 }
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
@@ -93,3 +99,82 @@ body {
 header, img, nav {
     border: 1rem;
 }
+
+.history {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 50px 150px ;
+    justify-items: center;
+    align-items: center;
+    border-style: double ;
+    border-color: darkmagenta;
+    margin-top: 25px;
+}
+.history h2 {
+    grid-column: 2;
+    grid-row: 1;
+ }
+.p_left {
+    grid-column: 1;
+    grid-row: 2;
+    padding: 1rem;
+    padding-left: 6rem;
+}
+.p_right {
+    grid-column: 3;
+    grid-row: 2;
+    padding: 1rem;
+    padding-right: 6rem;
+}
+
+ .history img{
+    grid-column: 2;
+    grid-row: 2;
+    padding: .5rem;
+    max-width: 150px;
+    height: auto;
+    border-radius: 25%;
+    
+
+ }
+
+
+ /*
+ .description {
+    grid-column: 1/4;
+    grid-row: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-around;
+    padding: 1rem;
+    flex: 3fr 2fr 3fr;
+ }
+.p_left {
+    flex: 1 1 300px;
+    padding: 1rem;
+}
+.description img{
+    flex: 2 2 200%;
+    max-width: 100px;
+    max-height: auto;
+    border-radius: 25%;
+    padding: 1rem;
+}
+.p_right {
+    flex: 1 1 250px;
+    padding: 1rem;
+  
+}
+ /*
+ .history p {
+    display: block;
+    grid-column: 1/2;
+    grid-row: 2/3;
+ } 
+ .history img {
+    display: block;
+    grid-column: 3/4;
+    grid-row: 2/3;
+ } 
+ 
