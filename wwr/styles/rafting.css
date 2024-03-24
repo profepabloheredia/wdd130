@@ -28,23 +28,23 @@ header {
     background-color: var(--accent2-color);
 }
 img {
-    padding: auto;
+    padding: 1px;
     grid-column: 1;
     grid-row: 1;
-    
 }
 nav {
     grid-column: 2;
     grid-row: 1;
     text-align: center;
     display: flex;
-    list-style: circle;
-    /*flex: 1fr 1fr 1fr 1fr;*/
-    justify-content: space-between;
+    list-style: none;
+    justify-content: space-evenly;
     align-content: center;
     background-color: var(--nav-backgroung-color);
     font-size: 1.2rem;
-    max-width: 60%;
+    max-width: 70%;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
     
 }
 nav a {
@@ -52,7 +52,7 @@ nav a {
     text-decoration: none;
     text-decoration-line: none;
     padding: 1rem;
-    border-radius: 30%;
+    border-radius: 20%;
       
 }
 nav a:link, nav a:visited {
