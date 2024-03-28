@@ -54,7 +54,9 @@ label{
 input, select, textarea{
     padding: 1rem;
     font-size: 1.1rem;
-
+}
+input, select{
+    height: 2em;
 }
 input[type="checkbox"]{
     width: 22px;
@@ -69,7 +71,7 @@ button{
     border-radius: 1rem;
     padding: .75rem;
     font-size: large;
-}
+}    
 
 footer{
     margin: 1rem auto 0;
