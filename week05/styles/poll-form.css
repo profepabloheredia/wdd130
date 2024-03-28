@@ -64,6 +64,7 @@ input[type="checkbox"]{
     vertical-align: bottom;
 }
 button{
+    
     margin: 1rem;
     background-color: blueviolet;
     color: white;
@@ -71,6 +72,13 @@ button{
     border-radius: 1rem;
     padding: .75rem;
     font-size: large;
+}
+button:hover{
+    background-color: darkgreen;
+}
+.buttons{
+    margin: 0 auto;
+    display: block;
 }    
 
 footer{
