@@ -67,18 +67,19 @@ input, select{
     height: 2em;
 }
 h4{
-    display: block;
     background-color: rgb(19, 32, 32);
     color: white;
-    padding: .5rem;
+    padding: 1rem;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
+    font-size: small;
     margin: 0 auto;
     text-align: center;
+    height: 3rem;
+    width: 18rem;
     
 }
 .example{
-    padding: 1.5rem;
+    padding: 1rem;
     align-content: center;
 }
 button{
