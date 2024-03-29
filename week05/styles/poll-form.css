@@ -64,6 +64,7 @@ input[type="checkbox"]{
     vertical-align: bottom;
 }
 button{
+    
     margin: 1rem;
     background-color: blueviolet;
     color: white;
