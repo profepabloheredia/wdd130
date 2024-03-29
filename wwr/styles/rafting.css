@@ -205,4 +205,39 @@ footer p{
     background-color: aqua;
 }
 
-  
+  /* contact portion*/
+.stafftitle {
+    padding-left: 22%;
+}
+
+.people{
+    display: flex;
+    flex-direction: row;
+    flex: 1fr 1fr 1fr 1fr;
+    /*align-content:space-around;*/
+   align-items: center;
+}
+.people figure{
+    border-style: none;
+    padding: 1rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.people img {
+    height: 180px;
+    width: auto;
+    background-color: none;
+      
+}
+.people figcaption{
+    padding: 0;
+    background-color: whitesmoke;
+    color: var(--nav-link-color);
+    font-style: normal;
+}
+.map{
+    text-align: center;
+    vertical-align: middle;
+    padding-right: 0;
+}

@@ -87,11 +87,12 @@ footer{
     text-align: center;
     font-size: 1rem;
     color: #777;
-    text-align: center;
+   
 }
 .form-item{
     display: grid;
     align-items: center;
+    text-align: center;
 }
 .column1{
     grid-template-columns: 3fr 1fr;
