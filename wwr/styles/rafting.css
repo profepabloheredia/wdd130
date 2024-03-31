@@ -47,8 +47,9 @@ nav {
     max-width: 70%;
     border-top-left-radius: 30%;
     border-bottom-right-radius: 30%;
+    border: 1rem;
 }
-nav a {
+nav>a {
     color: var(--nav-link-color);
     text-decoration: none;
     text-decoration-line: none;
@@ -56,10 +57,10 @@ nav a {
     border-radius: 20%;
       
 }
-nav a:link, nav a:visited {
+nav>a:link, nav>a:visited {
     color: var(--nav-link-color);
 }
-nav a:hover{
+nav>a:hover{
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
@@ -96,9 +97,6 @@ body {
     width: 15%;
     height: auto;
     
-}
-nav {
-    border: 1rem;
 }
 .history {
     display: grid;
@@ -286,7 +284,7 @@ form{
 form label {
     grid-column: 1;
 }
-input, textarea, .r3>div {
+.r3>div {
     width: 100px;
     flex: 2;
 }
@@ -307,17 +305,6 @@ input, textarea, .r3>div {
     grid-row: 6;
     text-align: center;
 }
-/*
-.r1 {grid-row: 1;}
-.r2 {grid-row: 2;}
-.r3 {
-    grid-row:3 ;   
-    text-align: center;
-}
-.r4 {grid-row: 4;}
-.r5 {grid-row: 5;}
-
-*/
 .options {
     display: flex ;
     flex-direction: row;
@@ -347,6 +334,9 @@ textarea{
     font-family: Arial, Helvetica, sans-serif ;
     font-size: 1.1rem;
     padding: .5rem;
+    width: 100px;
+    flex: 2;
+   
 }
 label{
     text-align: center;
@@ -355,6 +345,8 @@ label{
     font-size: 1.1rem;   
 }
 input{
+    width: 100px;
+    flex: 2;
     height: .7em;
     font-family: Arial, Helvetica, sans-serif ;
     font-size: 1.1rem;
