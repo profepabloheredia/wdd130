@@ -282,7 +282,7 @@ form{
 form label {
     grid-column: 1;
 }
-input, textarea, .r3 div {
+input, textarea, .r3>div {
     width: 100px;
     flex: 2;
 }
@@ -292,9 +292,18 @@ input, textarea, .r3 div {
     margin: .5rem;
     align-items: center;
 } 
-.r1 label, .r2 label, .r3 label, .r4 label{
+.r1>label, .r2>label, .r3>label, .r4>label{
     width: 90px ; 
 }
+.r5>label{
+    font-style: italic;
+    font-size: 18px;
+}
+.r6 {
+    grid-row: 6;
+    text-align: center;
+}
+/*
 .r1 {grid-row: 1;}
 .r2 {grid-row: 2;}
 .r3 {
@@ -303,14 +312,8 @@ input, textarea, .r3 div {
 }
 .r4 {grid-row: 4;}
 .r5 {grid-row: 5;}
-.r5 label{
-    font-style: italic;
-    font-size: 15px;
-}
-.r6 {
-    grid-row: 6;
-    text-align: center;
-}
+
+*/
 .options {
     display: flex ;
     flex-direction: row;
