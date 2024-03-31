@@ -206,10 +206,12 @@ footer p{
 }
 
   /* contact portion*/
+
+
+
 .stafftitle {
     padding-left: 22%;
 }
-
 .people{
     display: flex;
     flex-direction: row;
@@ -223,6 +225,7 @@ footer p{
     justify-content: center;
     text-align: center;
     align-items: center;
+    
 }
 .people img {
     height: 180px;
@@ -239,5 +242,132 @@ footer p{
 .map{
     text-align: center;
     vertical-align: middle;
+    padding: 1rem;
     padding-right: 0;
+}
+.contact{
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr;
+    border-top-style:solid;
+    border-color: var(--accent2-color);
+    padding: 1rem;
+    margin-top: 10px;
+}
+h5{
+    height: 5px;
+}
+.left, .right{
+    margin-top: 3rem;
+    padding-left: 1rem;
+    margin-left:1rem;
+}
+.left{grid-column: 1;}
+.right{
+    grid-column: 3;
+    margin-left: 5rem;
+
+}
+
+.bold{
+    font-size: large;
+    padding-top: 1rem;
+}
+form{
+    border-style:solid;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    border-radius: .7rem;
+    padding: 1rem;
+    margin: 0 auto;
+    width: 550px;
+    background-color: #eee;
+    display: grid;
+    grid-template: 5/2;
+}
+form label {
+    grid-column: 1;
+}
+input, textarea, .r3 div {
+    width: 100px;
+    flex: 2;
+}
+.r1, .r2, .r3, .r4, .r5{
+    display: flex;
+    flex-direction: row;
+    flex: 90px 1fr;
+    margin: .5rem;
+    align-items: center;
+} 
+.r1 label, .r2 label, .r3 label, .r4 label{
+    width: 90px ; 
+}
+.r1 {grid-row: 1;}
+.r2 {grid-row: 2;}
+.r3 {
+    grid-row:3 ;   
+    text-align: center;
+}
+.r4 {grid-row: 4;}
+.r5 {grid-row: 5;}
+.r5 label{
+    font-style: italic;
+    font-size: 15px;
+}
+.r6 {
+    grid-row: 6;
+    text-align: center;
+}
+.options {
+    display: flex ;
+    flex-direction: row;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: .5rem;
+    margin: 5px;
+    padding: .5rem;
+}
+.options label{
+    font-size: small;
+    width: 5em;
+}
+.questions {
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    text-align: left;   
+}
+.line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: bottom;
+    height: auto;
+}
+label, input, button, textarea{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 1.1rem;
+}
+label{
+    text-align: center;
+    padding-right: .5rem;
+    
+}
+input, select, textarea{
+    padding: .5rem;
+    font-size: 1.1rem;
+}
+input{
+    height: .7em;
+}
+button{
+    margin: 1rem;
+    margin-top: 1.5rem;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    padding: .75rem;
+    font-size: large;
+    width: 75%;
+}
+button:hover{
+    background-color: darkgreen;
 }
