@@ -293,13 +293,16 @@ form label {
     flex-direction: row;
     margin: .5rem;
     align-items: center;
+    
 } 
 .r1>label, .r2>label, .r3>label, .r4>label{
     width: 90px ; 
 }
 .r5>label{
     font-style: italic;
-    font-size: 18px;
+    font-size: 17px;
+    margin-left: 100px;
+    
 }
 .r6 {
     grid-row: 6;
@@ -366,3 +369,42 @@ button{
 button:hover{
     background-color: darkgreen;
 }
+.grid_trips{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 80px auto auto auto;
+    grid-gap: 0px;
+    padding: 0px;
+   
+}
+.grid-trips > div {
+    text-align: center;
+    padding: 0;
+    font-size: 50px;
+    align-content: center;
+    align-items: center;
+}
+.trips_title{
+    grid-area: 1 / 1 / 1 / span 2 ;
+    text-align: center;
+    font-size: larger;
+}
+.trip_text {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 3rem;
+    padding: 10px;
+    font-size: large;
+}
+.trip_picture{
+    padding: 0;
+    margin: 0;    
+}
+.trip_picture > img{
+    padding: 0;
+    margin: 0;
+    width: 98%;
+    height: auto;
+}
+
