@@ -573,14 +573,4 @@ button:hover{
 .picture>figure{
     border: none;
     padding: 0;
-}/*
-.picture>figure>figcaption{
-    width: 12rem;
-    background-color: black;
-    color: black;
-}
-.picture>figure>figcaption:hover{
-
-    background-color: rgb(19, 1, 1);
-    color: white;
 }
