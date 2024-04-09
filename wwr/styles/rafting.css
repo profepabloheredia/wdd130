@@ -406,7 +406,7 @@ button:hover{
     grid-gap: 0px;
     padding: 0px;
 }
-.grid-trips > div {
+.grid-trips>div {
     text-align: center;
     padding: 0;
     font-size: 50px;
@@ -435,13 +435,13 @@ button:hover{
     padding: 0;
     margin: 0;    
 }
-.trip_picture > img{
+.trip_picture>a>img{
     padding: 0;
     margin: 0;
     width: 75%;
     height: auto;
 }
-.trip_picture > img:hover{
+.trip_picture>a>img:hover{
     width: 100%;
     height: auto;
 } 
@@ -499,6 +499,9 @@ button:hover{
 .picture>img, .picture>figure>a>img{
     height: 200px;
     width: auto;    
+}
+.picture>img:hover{
+    opacity: 50%;
 }
 .all_trip_text {
     padding: .5rem;
