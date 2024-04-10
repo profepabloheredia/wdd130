@@ -445,7 +445,6 @@ button:hover{
     width: 100%;
     height: auto;
 } 
-
 .all_trips {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
@@ -453,9 +452,7 @@ button:hover{
     grid-gap: 0px;
     padding: 0px;
 }
-.trip_1, .trip_2, .trip_3, .trip_4, 
-.trip_5, .trip_6, .trip_7, .trip_8 {
-
+.trip {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -464,38 +461,7 @@ button:hover{
     border-width: 1px;
     border-color: var(--accent2-color);
 }
-.trip_1{
-    grid-row: 1;
-    grid-column: 1;
-}/*
-.trip_2{
-    grid-row: 1;
-    grid-column: 2;
-}
-.trip_3{
-    grid-row: 1;
-    grid-column: 3;
-}
-.trip_4{
-    grid-row: 1;
-    grid-column: 4;
-}
-.trip_5{
-    grid-row: 2;
-    grid-column: 1;
-}
-.trip_6{
-    grid-row: 2;
-    grid-column: 2;
-}
-.trip_7{
-    grid-row: 2;
-    grid-column: 3;
-}
-.trip_8{
-    grid-row: 2;
-    grid-column: 4;
-}*/
+
 .picture>img, .picture>figure>a>img{
     height: 200px;
     width: auto;    
