@@ -455,10 +455,10 @@ button:hover{
 }
 .trip_1, .trip_2, .trip_3, .trip_4, 
 .trip_5, .trip_6, .trip_7, .trip_8 {
+
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 0;
     margin: 2px;
     border-style: dotted;
     border-width: 1px;
@@ -467,7 +467,7 @@ button:hover{
 .trip_1{
     grid-row: 1;
     grid-column: 1;
-}
+}/*
 .trip_2{
     grid-row: 1;
     grid-column: 2;
@@ -495,7 +495,7 @@ button:hover{
 .trip_8{
     grid-row: 2;
     grid-column: 4;
-}
+}*/
 .picture>img, .picture>figure>a>img{
     height: 200px;
     width: auto;    
