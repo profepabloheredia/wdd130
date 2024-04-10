@@ -433,11 +433,11 @@ button:hover{
 }
 .trip_picture{
     padding: 0;
-    margin: 0;    
+    margin: 0;   
+    vertical-align:middle; 
+    text-align: center;
 }
 .trip_picture>a>img{
-    padding: 0;
-    margin: 0;
     width: 75%;
     height: auto;
 }
